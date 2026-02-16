@@ -1,0 +1,245 @@
+/* === NEWSPAPER GRID SYSTEM === */
+
+:root {
+  /* Colors */
+  --color-text: #1a1a1a;
+  --color-text-light: #333;
+  --color-muted: #666;
+  --color-rule: #d4d4d4;
+  --color-rule-dark: #1a1a1a;
+  --color-paper: #fafaf7;
+  --color-paper-alt: #f0f0ec;
+  --color-accent: #2c2c7c;
+  --color-accent-light: #4a4a9a;
+  --color-white: #fff;
+
+  /* Spacing */
+  --gutter: 24px;
+  --section-gap: 3rem;
+  --page-max: 1200px;
+  --page-padding: 24px;
+}
+
+/* Page wrapper */
+.page-wrapper {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 0 var(--page-padding);
+}
+
+/* === MASTHEAD === */
+.masthead {
+  text-align: center;
+  padding: 1.5rem 0 0;
+  border-bottom: 4px double var(--color-rule-dark);
+}
+
+.masthead-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--color-rule);
+  margin-bottom: 1rem;
+}
+
+.masthead-nameplate {
+  padding: 0.5rem 0;
+}
+
+.masthead-subtitle {
+  padding-bottom: 1rem;
+}
+
+/* === STICKY NAV === */
+.main-nav {
+  background: var(--color-paper);
+  border-top: 1px solid var(--color-rule);
+  border-bottom: 1px solid var(--color-rule);
+  padding: 0.6rem 0;
+  z-index: 100;
+  transition: box-shadow 0.3s ease;
+}
+
+.main-nav.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.main-nav.sticky + * {
+  padding-top: 50px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 0 var(--page-padding);
+}
+
+.nav-link {
+  color: var(--color-text);
+  transition: color 0.2s;
+  white-space: nowrap;
+}
+
+.nav-link:hover {
+  color: var(--color-accent);
+}
+
+/* === SECTIONS === */
+.section {
+  padding: var(--section-gap) 0;
+  border-bottom: 1px solid var(--color-rule);
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section-header .kicker {
+  margin-bottom: 0.5rem;
+}
+
+.section-rule {
+  width: 60px;
+  height: 3px;
+  background: var(--color-accent);
+  margin: 0.8rem auto 0;
+}
+
+/* === GRID LAYOUTS === */
+
+/* Hero: photo-first Reforma-style layout */
+.grid-hero {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--gutter);
+}
+
+.hero-top {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: var(--gutter);
+  align-items: start;
+}
+
+.hero-top .photo-frame img {
+  aspect-ratio: 3 / 2;
+}
+
+/* 2-column equal */
+.grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--gutter);
+}
+
+/* 3-column */
+.grid-3col {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gutter);
+}
+
+/* 4-column */
+.grid-4col {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gutter);
+}
+
+/* Vertical rule between columns */
+.grid-with-rules {
+  column-gap: calc(var(--gutter) * 2);
+}
+
+.grid-with-rules > * {
+  position: relative;
+}
+
+.grid-with-rules > *:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: calc(var(--gutter) * -1);
+  width: 1px;
+  height: 100%;
+  background: var(--color-rule);
+}
+
+/* === HORIZONTAL RULES === */
+.rule-thin {
+  border: none;
+  border-top: 1px solid var(--color-rule);
+  margin: 1.5rem 0;
+}
+
+.rule-thick {
+  border: none;
+  border-top: 3px solid var(--color-rule-dark);
+  margin: 1.5rem 0;
+}
+
+.rule-double {
+  border: none;
+  border-top: 4px double var(--color-rule-dark);
+  margin: 1.5rem 0;
+}
+
+/* === LANGUAGE TOGGLE === */
+.lang-toggle {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  font-weight: 600;
+  background: none;
+  border: 1px solid var(--color-text);
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 0.2s;
+}
+
+.lang-toggle:hover {
+  background: var(--color-text);
+  color: var(--color-paper);
+}
+
+/* === ALT BACKGROUND === */
+.section-alt {
+  background: var(--color-paper-alt);
+  margin-left: calc(var(--page-padding) * -1);
+  margin-right: calc(var(--page-padding) * -1);
+  padding-left: var(--page-padding);
+  padding-right: var(--page-padding);
+}
+
+/* === FOOTER === */
+.footer {
+  background: var(--color-text);
+  color: var(--color-paper);
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer a {
+  color: var(--color-paper);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.footer a:hover {
+  color: var(--color-accent-light);
+}

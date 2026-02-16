@@ -1,0 +1,176 @@
+/* === RESPONSIVE BREAKPOINTS === */
+
+/* Tablet: 768px */
+@media (max-width: 768px) {
+  :root {
+    --gutter: 16px;
+    --page-padding: 16px;
+    --section-gap: 2.5rem;
+  }
+
+  /* Hero: single column */
+  .grid-hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-top {
+    grid-template-columns: 1fr;
+  }
+
+  /* Book cover images */
+  .book-card > img {
+    float: none;
+    width: 100%;
+    height: 160px;
+    margin: 0 0 1rem 0;
+  }
+
+  /* 4-col → 2x2 */
+  .grid-4col {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* 3-col → 2+1 */
+  .grid-3col {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-3col > *:last-child {
+    grid-column: 1 / -1;
+  }
+
+  /* Metrics → 2x2 */
+  .metric-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Contact → 1 column */
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Remove vertical rules on tablet */
+  .grid-with-rules > *::after {
+    display: none;
+  }
+
+  /* Nav becomes scrollable */
+  .nav-list {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 1.2rem;
+    padding-bottom: 0.3rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .nav-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Feature article single column */
+  .feature-article .body-text {
+    columns: 1;
+  }
+
+  /* Logo bar smaller */
+  .logo-bar {
+    gap: 1.5rem;
+  }
+
+  .logo-bar img {
+    height: 28px;
+  }
+}
+
+/* Mobile: 480px */
+@media (max-width: 480px) {
+  :root {
+    --page-padding: 12px;
+    --section-gap: 2rem;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  /* All grids → single column */
+  .grid-hero,
+  .grid-2col,
+  .grid-3col,
+  .grid-4col {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-3col > *:last-child {
+    grid-column: auto;
+  }
+
+  /* Metrics → single column */
+  .metric-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .metric-card {
+    padding: 1.2rem 0.8rem;
+  }
+
+  /* Masthead */
+  .masthead-top {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  /* Timeline narrower */
+  .timeline {
+    padding-left: 2rem;
+  }
+
+  .timeline-item {
+    padding-left: 0.5rem;
+  }
+
+  /* Press cards full width */
+  .press-card {
+    padding: 0;
+  }
+
+  .press-card-body {
+    padding: 1rem;
+  }
+
+  .press-card > img {
+    height: 150px;
+  }
+
+  /* Logo bar wrap tighter */
+  .logo-bar {
+    gap: 1rem;
+  }
+
+  .logo-bar img {
+    height: 24px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .main-nav,
+  .lang-toggle,
+  .video-container,
+  .logo-bar {
+    display: none;
+  }
+
+  body {
+    font-size: 11pt;
+    color: #000;
+    background: #fff;
+  }
+
+  .section {
+    page-break-inside: avoid;
+  }
+}
