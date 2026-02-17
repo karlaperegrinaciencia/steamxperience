@@ -1,42 +1,64 @@
-/* === RESPONSIVE BREAKPOINTS === */
+/* === RESPONSIVE — Reforma-style breakpoints === */
 
-/* Tablet: 768px */
+/* Tablet: ≤768px — vertical rules disappear, blocks stack */
 @media (max-width: 768px) {
   :root {
-    --gutter: 16px;
+    --gutter: 20px;
+    --row-gap: 30px;
     --page-padding: 16px;
-    --section-gap: 2.5rem;
   }
 
-  /* Hero: single column */
-  .grid-hero {
+  /* Primera → stack vertically */
+  .rf-primera {
     grid-template-columns: 1fr;
   }
 
-  .hero-top {
+  .rf-primera::after {
+    display: none;
+  }
+
+  /* Sidebar stories: keep horizontal layout but smaller images */
+  .rf-sidebar-story {
+    grid-template-columns: 130px 1fr;
+  }
+
+  /* Featured blocks → stack */
+  .rf-featured,
+  .rf-featured--reverse {
     grid-template-columns: 1fr;
   }
 
-  /* Book cover images */
-  .book-card > img {
-    float: none;
-    width: 100%;
-    height: 160px;
-    margin: 0 0 1rem 0;
+  .rf-featured::after {
+    display: none;
   }
 
-  /* 4-col → 2x2 */
-  .grid-4col {
+  /* Row of 3 → 2 + 1 */
+  .rf-row-3 {
     grid-template-columns: 1fr 1fr;
   }
 
-  /* 3-col → 2+1 */
-  .grid-3col {
-    grid-template-columns: 1fr 1fr;
+  .rf-row-3 > *:nth-child(2)::after {
+    display: none;
   }
 
-  .grid-3col > *:last-child {
+  .rf-row-3 > *:last-child {
     grid-column: 1 / -1;
+  }
+
+  /* Row of 4 → 2x2 */
+  .rf-row-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .rf-row-4 > *:nth-child(2n)::after {
+    display: none;
+  }
+
+  /* Remove vertical rules */
+  .rf-row-3 > *:not(:last-child)::after,
+  .rf-row-4 > *:not(:last-child)::after,
+  .grid-with-rules > *::after {
+    display: none !important;
   }
 
   /* Metrics → 2x2 */
@@ -44,17 +66,12 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  /* Contact → 1 column */
+  /* Contact → 1 col */
   .contact-grid {
     grid-template-columns: 1fr;
   }
 
-  /* Remove vertical rules on tablet */
-  .grid-with-rules > *::after {
-    display: none;
-  }
-
-  /* Nav becomes scrollable */
+  /* Nav scrollable */
   .nav-list {
     flex-wrap: nowrap;
     overflow-x: auto;
@@ -69,26 +86,27 @@
     display: none;
   }
 
-  /* Feature article single column */
-  .feature-article .body-text {
-    columns: 1;
+  /* Book cards: unstack images */
+  .book-card > img,
+  [style*="float:left"] {
+    float: none !important;
+    width: 100% !important;
+    height: 160px !important;
+    margin: 0 0 1rem 0 !important;
   }
 
-  /* Logo bar smaller */
+  /* Logo bar */
   .logo-bar {
     gap: 1.5rem;
   }
-
-  .logo-bar img {
-    height: 28px;
-  }
 }
 
-/* Mobile: 480px */
+/* Mobile: ≤480px — everything single column */
 @media (max-width: 480px) {
   :root {
     --page-padding: 12px;
-    --section-gap: 2rem;
+    --gutter: 16px;
+    --row-gap: 24px;
   }
 
   body {
@@ -96,15 +114,27 @@
   }
 
   /* All grids → single column */
-  .grid-hero,
+  .rf-primera,
+  .rf-featured,
+  .rf-featured--reverse,
+  .rf-row-3,
+  .rf-row-4,
   .grid-2col,
-  .grid-3col,
-  .grid-4col {
+  .grid-3col {
     grid-template-columns: 1fr;
   }
 
-  .grid-3col > *:last-child {
+  .rf-row-3 > *:last-child {
     grid-column: auto;
+  }
+
+  /* Sidebar stories → stack vertically */
+  .rf-sidebar-story {
+    grid-template-columns: 1fr;
+  }
+
+  .rf-sidebar-story img {
+    height: 160px;
   }
 
   /* Metrics → single column */
@@ -123,7 +153,7 @@
     text-align: center;
   }
 
-  /* Timeline narrower */
+  /* Timeline */
   .timeline {
     padding-left: 2rem;
   }
@@ -132,30 +162,18 @@
     padding-left: 0.5rem;
   }
 
-  /* Press cards full width */
-  .press-card {
-    padding: 0;
+  /* rf-card images */
+  .rf-card img {
+    height: 160px;
   }
 
-  .press-card-body {
-    padding: 1rem;
-  }
-
-  .press-card > img {
-    height: 150px;
-  }
-
-  /* Logo bar wrap tighter */
+  /* Logo bar */
   .logo-bar {
     gap: 1rem;
   }
-
-  .logo-bar img {
-    height: 24px;
-  }
 }
 
-/* Print styles */
+/* Print */
 @media print {
   .main-nav,
   .lang-toggle,
@@ -170,7 +188,7 @@
     background: #fff;
   }
 
-  .section {
+  .rf-block {
     page-break-inside: avoid;
   }
 }
