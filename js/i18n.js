@@ -32,7 +32,7 @@ const translations = {
     cta_vision_desc: "Charla TEDxCanc\u00fan sobre convertir el caos en motor de vocaci\u00f3n cient\u00edfica.",
 
     // 2. Perfil Ejecutivo
-    perfil_kicker: "Perfil Ejecutivo",
+    perfil_kicker: "Perfil Profesional",
 
     // Col A: Comunicacion
     perfil_colA_title: "Comunicaci\u00f3n P\u00fablica de la Ciencia",
@@ -58,7 +58,7 @@ const translations = {
     perfil_colC_3: "Empoderamiento: Programa \u201cEllas en la ciencia\u201d y mentor\u00eda #Ni\u00f1asSTEM",
 
     // 3. Dashboard de Numeralia
-    numeralia_kicker: "Dashboard de Numeralia",
+    numeralia_kicker: "Dashboard",
     num_1: "Recursos gestionados para la operaci\u00f3n nacional de comunicaci\u00f3n en CONACYT",
     num_2: "Aumento en la rentabilidad de espacios de apropiaci\u00f3n social del conocimiento",
     num_3: "Convocatorias: Liderazgo en la asignaci\u00f3n de >$200 MDP mediante convocatorias nacionales",
@@ -133,7 +133,7 @@ const translations = {
     cta_vision_desc: "TEDxCanc\u00fan talk on turning chaos into a driver of scientific vocation.",
 
     // 2. Executive Profile
-    perfil_kicker: "Executive Profile",
+    perfil_kicker: "Professional Profile",
 
     // Col A: Communication
     perfil_colA_title: "Public Communication of Science",
@@ -159,7 +159,7 @@ const translations = {
     perfil_colC_3: "Empowerment: \u201cGirls in Science\u201d program and #GirlsSTEM mentoring",
 
     // 3. Numbers Dashboard
-    numeralia_kicker: "Numbers Dashboard",
+    numeralia_kicker: "Dashboard",
     num_1: "Resources managed for national communication operations at CONACYT",
     num_2: "Increase in profitability of social appropriation of knowledge spaces",
     num_3: "Calls for proposals: Leadership in allocating >$200M MXN through national calls",
