@@ -12,7 +12,7 @@ const translations = {
     nav_numeralia: "Numeralia",
     nav_ciencia: "Ciencia",
     nav_steam: "STEAM",
-    nav_podcasts: "Podcasts",
+    nav_podcasts: "Comunicación y medios",
     nav_contacto: "Contacto",
 
     // 1. Vision (Hero / Primera)
@@ -84,7 +84,7 @@ const translations = {
     steam_photo_caption: "Karla Peregrina con colegas internacionales en laboratorio de Troms\u00f8, Noruega.",
 
     // 6. Podcasts
-    podcasts_kicker: "Podcasts y Colaboraciones",
+    podcasts_kicker: "Comunicación y medios",
     pod_1_kicker: "Podcast",
     pod_1_title: "Laboratorio de Estrategia Educativa",
     pod_1_desc: "An\u00e1lisis sobre educaci\u00f3n y tecnolog\u00eda en tiempos de la IA.",
@@ -113,7 +113,7 @@ const translations = {
     nav_numeralia: "Numbers",
     nav_ciencia: "Science",
     nav_steam: "STEAM",
-    nav_podcasts: "Podcasts",
+    nav_podcasts: "Communication & Media",
     nav_contacto: "Contact",
 
     // 1. Vision (Hero / Primera)
@@ -185,7 +185,7 @@ const translations = {
     steam_photo_caption: "Karla Peregrina with international colleagues at a laboratory in Troms\u00f8, Norway.",
 
     // 6. Podcasts
-    podcasts_kicker: "Podcasts & Collaborations",
+    podcasts_kicker: "Communication & Media",
     pod_1_kicker: "Podcast",
     pod_1_title: "Educational Strategy Lab",
     pod_1_desc: "Analysis of education and technology in the age of AI.",
