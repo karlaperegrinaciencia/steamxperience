@@ -13,7 +13,7 @@
     grid-template-columns: 1fr;
   }
 
-  .rf-primera::after {
+  .rf-primera-main::after {
     display: none;
   }
 
@@ -28,7 +28,7 @@
     grid-template-columns: 1fr;
   }
 
-  .rf-featured::after {
+  .rf-featured > *:first-child::after {
     display: none;
   }
 

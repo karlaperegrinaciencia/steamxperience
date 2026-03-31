@@ -123,14 +123,18 @@
   position: relative;
 }
 
-/* Vertical rule between primera columns */
-.rf-primera::after {
+/* Vertical rule between primera columns — on the main column's right edge */
+.rf-primera-main {
+  position: relative;
+}
+
+.rf-primera-main::after {
   content: '';
   position: absolute;
   top: 0;
-  bottom: 0;
-  left: calc(5 / 12 * 100% + var(--gutter) / 2 * -1);
+  right: calc(var(--gutter) / -2);
   width: 1px;
+  height: 100%;
   background: var(--color-rule);
 }
 
@@ -227,21 +231,19 @@
   grid-template-columns: 7fr 5fr;
 }
 
-.rf-featured::after {
+/* Vertical rule — on the first child's right edge */
+.rf-featured > *:first-child {
+  position: relative;
+}
+
+.rf-featured > *:first-child::after {
   content: '';
   position: absolute;
   top: 0;
-  bottom: 0;
+  right: calc(var(--gutter) / -2);
   width: 1px;
+  height: 100%;
   background: var(--color-rule);
-}
-
-.rf-featured:not(.rf-featured--reverse)::after {
-  left: calc(5 / 12 * 100%);
-}
-
-.rf-featured.rf-featured--reverse::after {
-  left: calc(7 / 12 * 100%);
 }
 
 /* --- Card: Reforma-style article card --- */

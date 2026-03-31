@@ -141,6 +141,8 @@
   color: var(--color-text-light);
 }
 
+/* Press link — works both inside .press-card and standalone */
+a.press-link,
 .press-card a.press-link {
   display: inline-block;
   margin-top: 0.6rem;
@@ -152,6 +154,7 @@
   text-underline-offset: 2px;
 }
 
+a.press-link:hover,
 .press-card a.press-link:hover {
   color: var(--color-accent-light);
 }
@@ -261,7 +264,13 @@
   border-left: 3px solid var(--color-accent);
   background: var(--color-paper-alt);
   margin-bottom: 1.2rem;
-  overflow: hidden;
+  overflow: hidden; /* clearfix for floated images */
+}
+
+.book-card::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .book-card > img {
