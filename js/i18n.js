@@ -21,6 +21,7 @@ const translations = {
     hero_standfirst: "M\u00e1s de 25 a\u00f1os tendiendo puentes entre el rigor acad\u00e9mico y la apropiaci\u00f3n social del conocimiento. Bi\u00f3loga de la UNAM, especialista en igualdad de g\u00e9nero, gestora de proyectos de ciencia de alto impacto, fundadora de STEAMXperience y doctorante en Ecolog\u00eda y Gesti\u00f3n Ambiental.",
 
     // Vision sidebar bullets
+    hero_bienvenida_link: "Leer bienvenida →",
     cta_tray_kicker: "Trayectoria",
     cta_tray_title: "Gesti\u00f3n de proyectos nacionales en CTI",
     cta_tray_desc: "Liderazgo en el ecosistema nacional de Ciencia, Tecnolog\u00eda e Innovaci\u00f3n.",
@@ -122,6 +123,7 @@ const translations = {
     hero_standfirst: "Over 25 years bridging academic rigor and social appropriation of knowledge. UNAM biologist, gender equality specialist, high-impact science project manager, founder of STEAMXperience, and PhD candidate in Ecology and Environmental Management.",
 
     // Vision sidebar bullets
+    hero_bienvenida_link: "Read welcome →",
     cta_tray_kicker: "Career",
     cta_tray_title: "Management of national STI projects",
     cta_tray_desc: "Leadership in the national Science, Technology, and Innovation ecosystem.",
