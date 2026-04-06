@@ -106,6 +106,7 @@ const translations = {
 
     // Contact
     contact_kicker: "Contacto",
+    contact_cta: "Si como yo, tienes inter\u00e9s en construir puentes estrat\u00e9gicos entre la ciencia, la equidad y la sostenibilidad para generar un alto impacto institucional, estoy disponible para colaborar en iniciativas que transformen y eleven la cultura cient\u00edfica y social. \u00a1Conectemos para hacer que el saber tenga sentido!",
 
     // Footer
     footer_rights: "Todos los derechos reservados.",
