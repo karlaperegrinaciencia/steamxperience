@@ -28,7 +28,7 @@ const translations = {
     cta_eq_kicker: "Equidad",
     cta_eq_title: "Promotora de iniciativas de acceso universal al conocimiento e igualdad",
     cta_eq_desc: "Igualdad sustantiva en las ciencias y tecnolog\u00edas.",
-    cta_vision_kicker: "Visi\u00f3n",
+    cta_vision_kicker: "Trascendencia",
     cta_vision_title: "\u201cC\u00f3mo el caos puede potenciar una vocaci\u00f3n\u201d \u2014 TEDx Talk",
     cta_vision_desc: "Charla TEDxCanc\u00fan sobre convertir el caos en motor de vocaci\u00f3n cient\u00edfica.",
 
@@ -130,7 +130,7 @@ const translations = {
     cta_eq_kicker: "Equity",
     cta_eq_title: "Champion of universal knowledge access and equality initiatives",
     cta_eq_desc: "Substantive equality in science and technology.",
-    cta_vision_kicker: "Vision",
+    cta_vision_kicker: "Transcendence",
     cta_vision_title: "\u201cHow Chaos Can Empower a Vocation\u201d \u2014 TEDx Talk",
     cta_vision_desc: "TEDxCanc\u00fan talk on turning chaos into a driver of scientific vocation.",
 
