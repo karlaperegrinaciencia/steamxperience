@@ -40,6 +40,7 @@ const translations = {
 
     // Col A: Comunicacion
     perfil_colA_title: "Comunicaci\u00f3n P\u00fablica de la Ciencia",
+    perfil_colA_intro: "Con 25 a\u00f1os en referentes como Reforma y la AMC, mi inter\u00e9s es desarrollar narrativas cr\u00edticas que permitan democratizar temas complejos como la bioseguridad. Mi enfoque busca equilibrar la vigilancia \u00e9tica con una innovaci\u00f3n responsable. Transformo la ciencia en una herramienta ciudadana estrat\u00e9gica para la toma de decisiones con sentido.",
     perfil_colA_headline: "Narrativa Cr\u00edtica: Periodismo de ciencia como Herramienta Ciudadana",
     perfil_colA_1: "Divulgaci\u00f3n UNAM: Colaboraciones Revista \u201c\u00bfC\u00f3mo ves?\u201d",
     perfil_colA_2: "Cobertura Especializada: presencia en agencias internacionales",
@@ -145,6 +146,7 @@ const translations = {
 
     // Col A: Communication
     perfil_colA_title: "Public Communication of Science",
+    perfil_colA_intro: "With 25 years at leading outlets like Reforma and AMC, my focus is developing critical narratives that democratize complex topics such as biosafety. My approach seeks to balance ethical oversight with responsible innovation. I transform science into a strategic civic tool for meaningful decision-making.",
     perfil_colA_headline: "Critical Narrative: Science Journalism as a Civic Tool",
     perfil_colA_1: "UNAM Outreach: Contributions to \u201c\u00bfC\u00f3mo ves?\u201d magazine",
     perfil_colA_2: "Specialized Coverage: presence in international agencies",
