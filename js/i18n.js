@@ -91,8 +91,9 @@ const translations = {
     steam_photo_kicker: "Colaboraci\u00f3n Internacional",
     steam_photo_caption: "Karla Peregrina con colegas internacionales en laboratorio de Troms\u00f8, Noruega.",
 
-    // 6. Podcasts
+    // 6. Comunicación y medios
     podcasts_kicker: "Comunicación y medios",
+    podcasts_intro: "Con 25 a\u00f1os de trayectoria en referentes como Reforma, la AMC y la revista \u201c\u00bfC\u00f3mo ves?\u201d, ejerzo un periodismo de narrativa cr\u00edtica para fiscalizar la pol\u00edtica cient\u00edfica y desentra\u00f1ar conflictos de inter\u00e9s. En espacios como el podcast Laboratorio de Estrategia Educativa, equilibro la vigilancia \u00e9tica de la innovaci\u00f3n educativa. Transformo la ciencia en una herramienta ciudadana estrat\u00e9gica para la democratizaci\u00f3n del saber y la toma de decisiones con sentido.",
     pod_1_kicker: "Podcast",
     pod_1_title: "Laboratorio de Estrategia Educativa",
     pod_1_desc: "An\u00e1lisis sobre educaci\u00f3n y tecnolog\u00eda en tiempos de la IA.",
@@ -200,8 +201,9 @@ const translations = {
     steam_photo_kicker: "International Collaboration",
     steam_photo_caption: "Karla Peregrina with international colleagues at a laboratory in Troms\u00f8, Norway.",
 
-    // 6. Podcasts
+    // 6. Communication & Media
     podcasts_kicker: "Communication & Media",
+    podcasts_intro: "With 25 years of experience at leading outlets like Reforma, AMC, and \u201c\u00bfC\u00f3mo ves?\u201d magazine, I practice critical narrative journalism to scrutinize science policy and uncover conflicts of interest. In spaces like the podcast Laboratorio de Estrategia Educativa, I balance ethical oversight of educational innovation. I transform science into a strategic civic tool for the democratization of knowledge and meaningful decision-making.",
     pod_1_kicker: "Podcast",
     pod_1_title: "Educational Strategy Lab",
     pod_1_desc: "Analysis of education and technology in the age of AI.",
