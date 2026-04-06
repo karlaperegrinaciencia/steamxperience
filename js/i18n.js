@@ -29,6 +29,7 @@ const translations = {
     cta_eq_title: "Promotora de iniciativas de acceso universal al conocimiento e igualdad",
     cta_eq_desc: "Igualdad sustantiva en las ciencias y tecnolog\u00edas.",
     cta_vision_kicker: "Trascendencia",
+    cta_vision_intro: "M\u00e1s de 25 a\u00f1os transformando la ciencia en una herramienta de poder ciudadano. Mi visi\u00f3n integra el rigor acad\u00e9mico con la justicia social y la sostenibilidad como elementos fundamentales para hacer frente a los retos del siglo XXI a trav\u00e9s de un di\u00e1logo de saberes honesto y significativo.",
     cta_vision_title: "\u201cC\u00f3mo el caos puede potenciar una vocaci\u00f3n\u201d \u2014 TEDx Talk",
     cta_vision_desc: "Charla TEDxCanc\u00fan sobre convertir el caos en motor de vocaci\u00f3n cient\u00edfica.",
 
@@ -131,6 +132,7 @@ const translations = {
     cta_eq_title: "Champion of universal knowledge access and equality initiatives",
     cta_eq_desc: "Substantive equality in science and technology.",
     cta_vision_kicker: "Transcendence",
+    cta_vision_intro: "Over 25 years transforming science into a tool for citizen empowerment. My vision integrates academic rigor with social justice and sustainability as fundamental elements to address 21st-century challenges through an honest and meaningful dialogue of knowledge.",
     cta_vision_title: "\u201cHow Chaos Can Empower a Vocation\u201d \u2014 TEDx Talk",
     cta_vision_desc: "TEDxCanc\u00fan talk on turning chaos into a driver of scientific vocation.",
 
