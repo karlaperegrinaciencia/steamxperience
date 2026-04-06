@@ -83,6 +83,7 @@ const translations = {
     // 5. Innovacion STEAM
     steam_kicker: "Innovaci\u00f3n en Apropiaci\u00f3n Social (STEAM)",
     steam_headline: "Dise\u00f1ando el Futuro: Iniciativas STEAM y Educaci\u00f3n Ambiental",
+    steam_intro: "Mediante el laboratorio STEAMXperience, dise\u00f1o ecosistemas de aprendizaje que transforman la curiosidad en innovaci\u00f3n mediante \u201codiseas educativas\u201d de alto impacto. Integro la ciencia de frontera con la educaci\u00f3n ambiental y el patrimonio biocultural para formar juventudes cr\u00edticas y comprometidas con su entorno. Desde modelos como Divulga-STEAM hasta proyectos socioambientales, dise\u00f1o el futuro democratizando saberes con sentido.",
     steam_1: "STEAMXperience: Experiencias cient\u00edficas emocionantes para infancias y juventudes",
     steam_2: "Infraestructura: Actualizaci\u00f3n museogr\u00e1fica del planetario de Chetumal",
     steam_3: "Comunidad: Tianguis Agroecol\u00f3gico y Artesano \u201cFRUTOS QUE DAN VIDA\u201d",
@@ -191,6 +192,7 @@ const translations = {
     // 5. STEAM Innovation
     steam_kicker: "Innovation in Social Appropriation (STEAM)",
     steam_headline: "Designing the Future: STEAM Initiatives and Environmental Education",
+    steam_intro: "Through the STEAMXperience laboratory, I design learning ecosystems that transform curiosity into innovation through high-impact \u201ceducational odysseys.\u201d I integrate frontier science with environmental education and biocultural heritage to develop critical youth committed to their environment. From models like Divulga-STEAM to socio-environmental projects, I design the future by democratizing knowledge with purpose.",
     steam_1: "STEAMXperience: Exciting scientific experiences for children and youth",
     steam_2: "Infrastructure: Museographic update of the Chetumal planetarium",
     steam_3: "Community: \u201cFRUTOS QUE DAN VIDA\u201d Agroecological and Artisan Market",
