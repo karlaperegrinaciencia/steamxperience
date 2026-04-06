@@ -23,6 +23,7 @@ const translations = {
     // Vision sidebar bullets
     hero_bienvenida_link: "Leer bienvenida →",
     cta_tray_kicker: "Trayectoria",
+    cta_tray_intro: "Del rigor del laboratorio en la UNAM a la alta direcci\u00f3n en la administraci\u00f3n p\u00fablica nacional. Una trayectoria marcada por la capacidad de articular colaboraciones entre la academia, el sector privado y la sociedad civil, asegurando siempre la sostenibilidad y el impacto institucional.",
     cta_tray_title: "Gesti\u00f3n de proyectos nacionales en CTI",
     cta_tray_desc: "Liderazgo en el ecosistema nacional de Ciencia, Tecnolog\u00eda e Innovaci\u00f3n.",
     cta_eq_kicker: "Equidad",
@@ -126,6 +127,7 @@ const translations = {
     // Vision sidebar bullets
     hero_bienvenida_link: "Read welcome →",
     cta_tray_kicker: "Career",
+    cta_tray_intro: "From the rigor of the UNAM laboratory to senior management in national public administration. A career defined by the ability to build collaborations between academia, the private sector, and civil society, always ensuring sustainability and institutional impact.",
     cta_tray_title: "Management of national STI projects",
     cta_tray_desc: "Leadership in the national Science, Technology, and Innovation ecosystem.",
     cta_eq_kicker: "Equity",
