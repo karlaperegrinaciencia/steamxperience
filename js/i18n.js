@@ -72,6 +72,7 @@ const translations = {
 
     // 4. Ciencia y Sostenibilidad
     ciencia_kicker: "Ciencia y Sostenibilidad",
+    ciencia_intro: "Cursando un PhD en Ecolog\u00eda, Bi\u00f3loga con Menci\u00f3n Honor\u00edfica (UNAM), me apego al rigor cient\u00edfico para fortalecer la resiliencia planetaria basada en la sostenibilidad. He liderado infraestructuras estrat\u00e9gicas como la Red Nacional de Jardines Etnobiol\u00f3gicos y gestionado pol\u00edticas que equilibran la vigilancia \u00e9tica con la innovaci\u00f3n responsable. Integro la ciencia de frontera con la sostenibilidad para asegurar una toma de decisiones de alto impacto institucional.",
     ciencia_sub_kicker: "Rigor para la Resiliencia",
     ciencia_headline: "Pensamiento Cient\u00edfico para la Gesti\u00f3n Ambiental",
     ciencia_1: "Formaci\u00f3n: Cursando el Doctorado en Ecolog\u00eda; graduada con honores como Licenciada en Biolog\u00eda; M\u00e1ster en igualdad.",
@@ -179,6 +180,7 @@ const translations = {
 
     // 4. Science & Sustainability
     ciencia_kicker: "Science & Sustainability",
+    ciencia_intro: "As a PhD candidate in Ecology and a Biology graduate with honors (UNAM), I apply scientific rigor to strengthen sustainability-based planetary resilience. I have led strategic infrastructures such as the National Network of Ethnobiological Gardens and managed policies that balance ethical oversight with responsible innovation. I integrate frontier science with sustainability to ensure high-impact institutional decision-making.",
     ciencia_sub_kicker: "Rigor for Resilience",
     ciencia_headline: "Scientific Thinking for Environmental Management",
     ciencia_1: "Education: Doctoral candidate in Ecology; Biology degree with honors; Master\u2019s in Equality.",
