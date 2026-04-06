@@ -58,6 +58,7 @@ const translations = {
     // Col C: Estratega STEAM
     perfil_colC_title: "Estratega STEAM",
     perfil_colC_headline: "Igualdad Sustantiva en las Ciencias y Tecnolog\u00edas",
+    perfil_colC_intro: "Con un M\u00e1ster en Igualdad, dise\u00f1o ecosistemas de aprendizaje STEAM que transversalizan la inclusi\u00f3n como motor de innovaci\u00f3n y rentabilidad social. He liderado a nivel global el comit\u00e9 de equidad de la International Planetarium Society y certificado instituciones ante Inmujeres, integrando la perspectiva de g\u00e9nero en la gesti\u00f3n de la pol\u00edtica cient\u00edfica. A trav\u00e9s de iniciativas como #Ni\u00f1asSTEM y STEAMXperience, aseguro que el talento no tenga g\u00e9nero, desmantelando sesgos hist\u00f3ricos para construir un futuro del conocimiento justo, inclusivo y sostenible.",
     perfil_colC_1: "Liderazgo Internacional: Direcci\u00f3n del EDI Committee en la IPS",
     perfil_colC_2: "Certificaci\u00f3n Institucional: Liderazgo en el Modelo de Equidad de G\u00e9nero de Inmujeres",
     perfil_colC_3: "Empoderamiento: Programa \u201cEllas en la ciencia\u201d y mentor\u00eda #Ni\u00f1asSTEM",
@@ -164,6 +165,7 @@ const translations = {
     // Col C: STEAM Strategist
     perfil_colC_title: "STEAM Strategist",
     perfil_colC_headline: "Substantive Equality in Science and Technology",
+    perfil_colC_intro: "With a Master\u2019s in Equality, I design STEAM learning ecosystems that mainstream inclusion as a driver of innovation and social return. I have globally led the equity committee of the International Planetarium Society and certified institutions before Inmujeres, integrating a gender perspective into science policy management. Through initiatives like #GirlsSTEM and STEAMXperience, I ensure that talent has no gender, dismantling historical biases to build a fair, inclusive, and sustainable future of knowledge.",
     perfil_colC_1: "International Leadership: Direction of the EDI Committee at IPS",
     perfil_colC_2: "Institutional Certification: Leadership in Inmujeres Gender Equity Model",
     perfil_colC_3: "Empowerment: \u201cGirls in Science\u201d program and #GirlsSTEM mentoring",
