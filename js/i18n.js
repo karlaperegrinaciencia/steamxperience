@@ -59,7 +59,7 @@ const translations = {
     perfil_colC_3: "Empoderamiento: Programa \u201cEllas en la ciencia\u201d y mentor\u00eda #Ni\u00f1asSTEM",
 
     // 3. Dashboard de Numeralia
-    numeralia_kicker: "Dashboard",
+    numeralia_kicker: "Numeralia",
     num_1: "Recursos gestionados para la operaci\u00f3n nacional de comunicaci\u00f3n en CONACYT",
     num_2: "Aumento en la rentabilidad de espacios de apropiaci\u00f3n social del conocimiento",
     num_3: "Convocatorias: Liderazgo en la asignaci\u00f3n de >$200 MDP mediante convocatorias nacionales",
@@ -161,7 +161,7 @@ const translations = {
     perfil_colC_3: "Empowerment: \u201cGirls in Science\u201d program and #GirlsSTEM mentoring",
 
     // 3. Numbers Dashboard
-    numeralia_kicker: "Dashboard",
+    numeralia_kicker: "Numeralia",
     num_1: "Resources managed for national communication operations at CONACYT",
     num_2: "Increase in profitability of social appropriation of knowledge spaces",
     num_3: "Calls for proposals: Leadership in allocating >$200M MXN through national calls",
