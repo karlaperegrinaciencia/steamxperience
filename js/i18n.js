@@ -88,8 +88,8 @@ const translations = {
     steam_2: "Infraestructura: Actualizaci\u00f3n museogr\u00e1fica del planetario de Chetumal",
     steam_3: "Comunidad: Tianguis Agroecol\u00f3gico y Artesano \u201cFRUTOS QUE DAN VIDA\u201d",
     steam_4: "Actividades de promoci\u00f3n de la cultura y seguridad alimentaria",
-    steam_photo_kicker: "Colaboraci\u00f3n Internacional",
-    steam_photo_caption: "Karla Peregrina con colegas internacionales en laboratorio de Troms\u00f8, Noruega.",
+    steam_photo_kicker: "Impulso a iniciativas STEAM",
+    steam_photo_caption: "Colaboraci\u00f3n con clubes de ciencias de infancias y adolescencias.",
 
     // 6. Comunicación y medios
     podcasts_kicker: "Comunicación y medios",
@@ -199,8 +199,8 @@ const translations = {
     steam_2: "Infrastructure: Museographic update of the Chetumal planetarium",
     steam_3: "Community: \u201cFRUTOS QUE DAN VIDA\u201d Agroecological and Artisan Market",
     steam_4: "Activities promoting culture and food security",
-    steam_photo_kicker: "International Collaboration",
-    steam_photo_caption: "Karla Peregrina with international colleagues at a laboratory in Troms\u00f8, Norway.",
+    steam_photo_kicker: "Boosting STEAM Initiatives",
+    steam_photo_caption: "Collaboration with science clubs for children and adolescents.",
 
     // 6. Communication & Media
     podcasts_kicker: "Communication & Media",
