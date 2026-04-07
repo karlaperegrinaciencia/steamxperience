@@ -106,7 +106,7 @@ const translations = {
 
     // Contact
     contact_kicker: "Contacto",
-    contact_cta: "Si como yo, tienes inter\u00e9s en construir puentes estrat\u00e9gicos entre la ciencia, la equidad y la sostenibilidad para generar un alto impacto institucional, estoy disponible para colaborar en iniciativas que transformen y eleven la cultura cient\u00edfica y social. \u00a1Conectemos para hacer que el saber tenga sentido!",
+    contact_cta: "Si como yo, tienes inter\u00e9s en <strong>construir puentes estrat\u00e9gicos</strong> entre la ciencia, la equidad y la sostenibilidad para generar un alto impacto institucional, estoy disponible para colaborar en iniciativas que transformen y eleven la cultura cient\u00edfica y social. <strong>\u00a1Conectemos para hacer que el saber tenga sentido!</strong>",
 
     // Footer
     footer_rights: "Todos los derechos reservados.",
@@ -217,6 +217,7 @@ const translations = {
 
     // Contact
     contact_kicker: "Contact",
+    contact_cta: "If, like me, you\u2019re interested in <strong>building strategic bridges</strong> between science, equity, and sustainability to generate high institutional impact, I am available to collaborate on initiatives that transform and elevate scientific and social culture. <strong>Let\u2019s connect and make knowledge meaningful!</strong>",
 
     // Footer
     footer_rights: "All rights reserved.",
@@ -234,7 +235,11 @@ function setLanguage(lang) {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.getAttribute('data-i18n');
     if (dict[key] !== undefined) {
-      el.textContent = dict[key];
+      if (el.hasAttribute('data-i18n-html')) {
+        el.innerHTML = dict[key];
+      } else {
+        el.textContent = dict[key];
+      }
     }
   });
 
