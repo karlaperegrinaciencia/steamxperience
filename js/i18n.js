@@ -89,7 +89,7 @@ const translations = {
     steam_3: "Comunidad: Tianguis Agroecol\u00f3gico y Artesano \u201cFRUTOS QUE DAN VIDA\u201d",
     steam_4: "Actividades de promoci\u00f3n de la cultura y seguridad alimentaria",
     steam_photo_kicker: "Impulso a iniciativas STEAM",
-    steam_photo_caption: "Colaboraci\u00f3n con clubes de ciencias de infancias y adolescencias.",
+    steam_photo_caption: "Creaci\u00f3n y fortalecimiento de clubes de ciencias para infancias y adolescencias.",
 
     // 6. Comunicación y medios
     podcasts_kicker: "Comunicación y medios",
@@ -200,7 +200,7 @@ const translations = {
     steam_3: "Community: \u201cFRUTOS QUE DAN VIDA\u201d Agroecological and Artisan Market",
     steam_4: "Activities promoting culture and food security",
     steam_photo_kicker: "Boosting STEAM Initiatives",
-    steam_photo_caption: "Collaboration with science clubs for children and adolescents.",
+    steam_photo_caption: "Creation and strengthening of science clubs for children and adolescents.",
 
     // 6. Communication & Media
     podcasts_kicker: "Communication & Media",
